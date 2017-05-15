@@ -173,7 +173,6 @@ def load_word_dict(file_path, add_padding_vec=False):
                 word_dict[word] = int(word_id) + 1
             else:
                 word_dict[word] = int(word_id)
-            print word_id
     print('word count of word dict : %d' % len(word_dict))
     return word_dict
 
